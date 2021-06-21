@@ -1,0 +1,62 @@
+body{
+    background-color: #232323;
+    margin : 0;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.square{
+    width: 30%;
+    padding-top: 30%;
+    margin:1.66%;
+    background: aqua;
+    float: left;
+    border-radius: 17%;
+    transition: background 0.3s;
+}
+#container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+h1{
+    color: white;
+    background-color: steelblue;
+    text-align: center;
+    margin:0;
+    padding: 20px 0px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+#displaycolor{
+    font-size:200%;
+}
+#stripe{
+    background-color: white;
+    color:black;
+    text-align: center;
+}
+.selected{
+    background-color: steelblue;
+    color: white;
+}
+button{
+    text-transform: uppercase;
+    font-weight:700;
+    font-size:inherit;
+    letter-spacing: 1px;
+    border:none;
+    background: none;
+    color:steelblue;
+    height: 100% ;
+    transition: all 0.4s;
+    outline:none;
+}
+#status{
+    width: 20%;
+    display: inline-block
+}
+button:hover{
+    color:white;
+    background: steelblue;
+}
+#container{
+    margin-top: 15px;
+}
